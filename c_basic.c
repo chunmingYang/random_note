@@ -18,3 +18,22 @@ int main()
   result[3] = myfunction(variable_1, variable_2);
     
 }
+
+
+
+/*
+  basic pointer usage
+*/
+#include <stdio.h>
+
+void myfunction(double *variable)
+{
+    *variable = 3;
+}
+
+int main()
+{
+    double variable = 1;
+    myfunction(&variable);
+    printf("%f\n", variable);
+}
