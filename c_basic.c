@@ -2,7 +2,7 @@
   how to pass variables within functions
 */
 
-double variable_1; // what is the difference between here and variables initialized inside "int main()"
+double variable_1; // what is the difference between here and variables initialized inside "int main()"?
 double variable_2;
 
 double myfunction(double variable_1, double variable_2)
