@@ -1,4 +1,5 @@
 /*
+  basic variables initialization and function call out format
   how to pass variables within functions
 */
 
@@ -22,7 +23,7 @@ int main()
 
 
 /*
-  basic pointer usage
+  basic pointer usage 01
 */
 #include <stdio.h>
 
@@ -36,4 +37,22 @@ int main()
     double variable = 1;
     myfunction(&variable);
     printf("%f\n", variable);
+}
+
+/*
+  basic pointer usage 02 reference from "basic pointer 01" can use to return array[i]
+*/
+
+void function_returnArray(double *var[0], double *var_2)
+{
+  // return array instead of return a single var
+  // return var;
+  
+}
+
+int main()
+{
+  double var[3];
+  function_returnArray(&var[0], &var[1], &var[2]);
+  
 }
