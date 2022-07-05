@@ -1,0 +1,4 @@
+- ode45: solve differential equations, exmple is to solve the classic manipulator dynamics equation to get states at each time step
+- fsolve: solve the system of non-linear equations
+- linsolve/solve: solve the system of linear equations
+- syms+solve(): can find the expression of variables inside the system of nonlinear/linear equations (only limited in simple equations system)
