@@ -1,0 +1,3 @@
+question1: in the optimization problem, somebody will say problem is based on gradient, some wil say this in non-gradient problem, even in nlopt we can articulate the gradient based parameters, so what is the details of this, i know newton raphson iteration is based on gradient?
+
+question2: newton-raphason iteration converge x(i+n+1)-x(i+n)< var, i remember there is another optimization method converge referring gradient<0 what is that?
