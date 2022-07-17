@@ -56,3 +56,7 @@ int main()
   function_returnArray(&var[0], &var[1], &var[2]);
   
 }
+
+/*
+  using "data_structure" to pass "global_variables" --- reference to the nlopt pranav's simplest example
+*/
